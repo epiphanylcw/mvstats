@@ -79,3 +79,8 @@ cars$Year <- factor(cars$year)
 ggplot(cars, aes(x=Cylinders, y=cty)) +
   geom_boxplot() +
   labs(x="Number of Cylinders", y="Miles Per Gallon", title ="Car Mileage Data")
+
+
+
+
+
